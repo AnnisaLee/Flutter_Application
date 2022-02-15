@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1033861534517",
+    "project_id": "frds-ea351",
+    "storage_bucket": "frds-ea351.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1033861534517:android:ce4ca8f5d5e2774859f27c",
+        "android_client_info": {
+          "package_name": "com.annisa.flutter_application_3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1033861534517-cgo7cibo8v3lm9jlrunc4sp312uc3t5a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmUgmvCVBk7Iz-HYfpOcMlpRPciXtFit8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1033861534517-cgo7cibo8v3lm9jlrunc4sp312uc3t5a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

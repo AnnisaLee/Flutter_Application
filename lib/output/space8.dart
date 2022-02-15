@@ -1,16 +1,11 @@
-import 'dart:ui';
-
 import 'package:flutter/material.dart';
+class space8 extends StatelessWidget {
+  const space8({ Key? key }) : super(key: key);
 
-void main() {
-  runApp(MaterialApp(home: space()));
-}
-
-class space extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(
+      appBar: AppBar(
           title: Text("Images talk louder than word"),
           backgroundColor: Colors.red[400],
           centerTitle: true,
@@ -20,9 +15,10 @@ class space extends StatelessWidget {
             Column(mainAxisAlignment: MainAxisAlignment.spaceEvenly, children: [
           Expanded(
             child: Image.asset(
-              ('images/design2.png'),
+              ('images/WillBen1.jpg'),
             ),
           ),
+          Text(""),
           ElevatedButton.icon(
               onPressed: () {
                 Navigator.pop(context);
@@ -35,6 +31,7 @@ class space extends StatelessWidget {
               },
               icon: Icon(Icons.download_done_outlined),
               label: Text("Download"))
-        ]));
+        ])
+    );
   }
 }
